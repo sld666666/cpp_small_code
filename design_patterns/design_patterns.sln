@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "design_patterns", "design_patterns\design_patterns.vcproj", "{198BCE38-705F-488E-BD0F-DF9BB1EE9F8E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Obserber", "Obserber\Obserber.vcproj", "{F2B9330F-22C8-486C-8D0F-76A07CFED9C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{198BCE38-705F-488E-BD0F-DF9BB1EE9F8E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{198BCE38-705F-488E-BD0F-DF9BB1EE9F8E}.Debug|Win32.Build.0 = Debug|Win32
+		{198BCE38-705F-488E-BD0F-DF9BB1EE9F8E}.Release|Win32.ActiveCfg = Release|Win32
+		{198BCE38-705F-488E-BD0F-DF9BB1EE9F8E}.Release|Win32.Build.0 = Release|Win32
+		{F2B9330F-22C8-486C-8D0F-76A07CFED9C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2B9330F-22C8-486C-8D0F-76A07CFED9C8}.Debug|Win32.Build.0 = Debug|Win32
+		{F2B9330F-22C8-486C-8D0F-76A07CFED9C8}.Release|Win32.ActiveCfg = Release|Win32
+		{F2B9330F-22C8-486C-8D0F-76A07CFED9C8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
