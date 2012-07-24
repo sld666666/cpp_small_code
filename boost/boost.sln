@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost", "boost\boost.vcproj
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost_tuple", "boost_tuple\boost_tuple.vcproj", "{CBCF09FD-0B6F-4D73-A15B-E445862676BD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost_lambda", "boost_lambda\boost_lambda.vcproj", "{3A2544FC-A72F-4E03-A214-A6595ED17980}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{CBCF09FD-0B6F-4D73-A15B-E445862676BD}.Debug|Win32.Build.0 = Debug|Win32
 		{CBCF09FD-0B6F-4D73-A15B-E445862676BD}.Release|Win32.ActiveCfg = Release|Win32
 		{CBCF09FD-0B6F-4D73-A15B-E445862676BD}.Release|Win32.Build.0 = Release|Win32
+		{3A2544FC-A72F-4E03-A214-A6595ED17980}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A2544FC-A72F-4E03-A214-A6595ED17980}.Debug|Win32.Build.0 = Debug|Win32
+		{3A2544FC-A72F-4E03-A214-A6595ED17980}.Release|Win32.ActiveCfg = Release|Win32
+		{3A2544FC-A72F-4E03-A214-A6595ED17980}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
