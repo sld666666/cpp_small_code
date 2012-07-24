@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="boost_lambda_test"
-	ProjectGUID="{3A88FB9B-6E39-407A-82A8-95FF5B01A16A}"
-	RootNamespace="boost_lambda_test"
+	Name="Decorator"
+	ProjectGUID="{55A97850-CE64-46DA-9112-6874FB3DEA64}"
+	RootNamespace="Decorator"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -171,7 +171,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\boost_lambda_test.cpp"
+				RelativePath=".\Decorator.cpp"
 				>
 			</File>
 			<File

@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "design_patterns", "design_p
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Obserber", "Obserber\Obserber.vcproj", "{F2B9330F-22C8-486C-8D0F-76A07CFED9C8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decorator", "Decorator\Decorator.vcproj", "{55A97850-CE64-46DA-9112-6874FB3DEA64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{F2B9330F-22C8-486C-8D0F-76A07CFED9C8}.Debug|Win32.Build.0 = Debug|Win32
 		{F2B9330F-22C8-486C-8D0F-76A07CFED9C8}.Release|Win32.ActiveCfg = Release|Win32
 		{F2B9330F-22C8-486C-8D0F-76A07CFED9C8}.Release|Win32.Build.0 = Release|Win32
+		{55A97850-CE64-46DA-9112-6874FB3DEA64}.Debug|Win32.ActiveCfg = Debug|Win32
+		{55A97850-CE64-46DA-9112-6874FB3DEA64}.Debug|Win32.Build.0 = Debug|Win32
+		{55A97850-CE64-46DA-9112-6874FB3DEA64}.Release|Win32.ActiveCfg = Release|Win32
+		{55A97850-CE64-46DA-9112-6874FB3DEA64}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
