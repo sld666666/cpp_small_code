@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "factory", "factory\factory.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "command", "command\command.vcproj", "{C875AD96-5FEF-4D04-88AC-C2B013BA5D0F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "adapter", "adapter\adapter.vcproj", "{BEDBDDE7-EB9A-4E61-8C9B-35D0E87552CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -37,6 +39,10 @@ Global
 		{C875AD96-5FEF-4D04-88AC-C2B013BA5D0F}.Debug|Win32.Build.0 = Debug|Win32
 		{C875AD96-5FEF-4D04-88AC-C2B013BA5D0F}.Release|Win32.ActiveCfg = Release|Win32
 		{C875AD96-5FEF-4D04-88AC-C2B013BA5D0F}.Release|Win32.Build.0 = Release|Win32
+		{BEDBDDE7-EB9A-4E61-8C9B-35D0E87552CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BEDBDDE7-EB9A-4E61-8C9B-35D0E87552CC}.Debug|Win32.Build.0 = Debug|Win32
+		{BEDBDDE7-EB9A-4E61-8C9B-35D0E87552CC}.Release|Win32.ActiveCfg = Release|Win32
+		{BEDBDDE7-EB9A-4E61-8C9B-35D0E87552CC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
