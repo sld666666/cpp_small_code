@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost_lambda", "boost_lambd
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "optional", "optional\optional.vcproj", "{F7828B82-6BFB-483C-827E-CADEDD3D371F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "asio", "asio\asio.vcproj", "{4BD40091-3464-4BF6-8EC1-A4A356033F8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -31,6 +33,10 @@ Global
 		{F7828B82-6BFB-483C-827E-CADEDD3D371F}.Debug|Win32.Build.0 = Debug|Win32
 		{F7828B82-6BFB-483C-827E-CADEDD3D371F}.Release|Win32.ActiveCfg = Release|Win32
 		{F7828B82-6BFB-483C-827E-CADEDD3D371F}.Release|Win32.Build.0 = Release|Win32
+		{4BD40091-3464-4BF6-8EC1-A4A356033F8A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4BD40091-3464-4BF6-8EC1-A4A356033F8A}.Debug|Win32.Build.0 = Debug|Win32
+		{4BD40091-3464-4BF6-8EC1-A4A356033F8A}.Release|Win32.ActiveCfg = Release|Win32
+		{4BD40091-3464-4BF6-8EC1-A4A356033F8A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
