@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "optional", "optional\option
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "asio", "asio\asio.vcproj", "{4BD40091-3464-4BF6-8EC1-A4A356033F8A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "auto", "auto\auto.vcproj", "{0E34DEF8-782A-4457-947B-4E316FF3B9B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -37,6 +39,10 @@ Global
 		{4BD40091-3464-4BF6-8EC1-A4A356033F8A}.Debug|Win32.Build.0 = Debug|Win32
 		{4BD40091-3464-4BF6-8EC1-A4A356033F8A}.Release|Win32.ActiveCfg = Release|Win32
 		{4BD40091-3464-4BF6-8EC1-A4A356033F8A}.Release|Win32.Build.0 = Release|Win32
+		{0E34DEF8-782A-4457-947B-4E316FF3B9B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E34DEF8-782A-4457-947B-4E316FF3B9B0}.Debug|Win32.Build.0 = Debug|Win32
+		{0E34DEF8-782A-4457-947B-4E316FF3B9B0}.Release|Win32.ActiveCfg = Release|Win32
+		{0E34DEF8-782A-4457-947B-4E316FF3B9B0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
