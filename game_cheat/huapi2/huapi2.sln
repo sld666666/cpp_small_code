@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "huapi2", "huapi2\huapi2.vcproj", "{B7C98D0B-9EB8-4A08-BA24-AFE80C40AD56}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43B7531B-D675-4F38-A94E-E3446A6658C7} = {43B7531B-D675-4F38-A94E-E3446A6658C7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gameOperator", "gameOperator\gameOperator.vcproj", "{43B7531B-D675-4F38-A94E-E3446A6658C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7C98D0B-9EB8-4A08-BA24-AFE80C40AD56}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7C98D0B-9EB8-4A08-BA24-AFE80C40AD56}.Debug|Win32.Build.0 = Debug|Win32
+		{B7C98D0B-9EB8-4A08-BA24-AFE80C40AD56}.Release|Win32.ActiveCfg = Release|Win32
+		{B7C98D0B-9EB8-4A08-BA24-AFE80C40AD56}.Release|Win32.Build.0 = Release|Win32
+		{43B7531B-D675-4F38-A94E-E3446A6658C7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{43B7531B-D675-4F38-A94E-E3446A6658C7}.Debug|Win32.Build.0 = Debug|Win32
+		{43B7531B-D675-4F38-A94E-E3446A6658C7}.Release|Win32.ActiveCfg = Release|Win32
+		{43B7531B-D675-4F38-A94E-E3446A6658C7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

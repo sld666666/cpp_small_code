@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled Object files
 *.slo
 *.lo
@@ -10,3 +11,6 @@
 *.lai
 *.la
 *.a
+=======
+*.swp
+>>>>>>> 858cd8185c81e60dd6c5f23fa6f965bca4815950

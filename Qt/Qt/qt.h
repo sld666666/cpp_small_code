@@ -4,13 +4,13 @@
 #include <QtGui/QMainWindow>
 #include "ui_qt.h"
 
-class Qt : public QMainWindow
+class QtTest : public QMainWindow
 {
 	Q_OBJECT
 
 public:
-	Qt(QWidget *parent = 0, Qt::WFlags flags = 0);
-	~Qt();
+	QtTest(QWidget *parent = 0, Qt::WFlags flags = 0);
+	~QtTest();
 
 private:
 	Ui::QtClass ui;
