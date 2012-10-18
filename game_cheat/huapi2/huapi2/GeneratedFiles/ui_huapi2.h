@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'huapi2.ui'
 **
-** Created: Wed Oct 17 19:33:37 2012
+** Created: Thu Oct 18 15:54:01 2012
 **      by: Qt User Interface Compiler version 4.7.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -29,6 +29,7 @@ class Ui_huapi2Class
 public:
     QWidget *centralWidget;
     QPushButton *btnHook_;
+    QPushButton *btnTest_;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -43,6 +44,9 @@ public:
         btnHook_ = new QPushButton(centralWidget);
         btnHook_->setObjectName(QString::fromUtf8("btnHook_"));
         btnHook_->setGeometry(QRect(30, 20, 75, 23));
+        btnTest_ = new QPushButton(centralWidget);
+        btnTest_->setObjectName(QString::fromUtf8("btnTest_"));
+        btnTest_->setGeometry(QRect(180, 20, 75, 23));
         huapi2Class->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(huapi2Class);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
@@ -64,6 +68,7 @@ public:
     {
         huapi2Class->setWindowTitle(QApplication::translate("huapi2Class", "huapi2", 0, QApplication::UnicodeUTF8));
         btnHook_->setText(QApplication::translate("huapi2Class", "hook", 0, QApplication::UnicodeUTF8));
+        btnTest_->setText(QApplication::translate("huapi2Class", "test", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

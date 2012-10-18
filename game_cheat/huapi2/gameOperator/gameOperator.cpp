@@ -68,17 +68,28 @@ BOOL CgameOperatorApp::InitInstance()
 	return TRUE;
 }
 
+std::wstring s2ws(const std::string& s)
+{
+	int len;
+	int slength = (int)s.length() + 1;
+	len = MultiByteToWideChar(CP_ACP, 0, s.c_str(), slength, 0, 0); 
+	wchar_t* buf = new wchar_t[len];
+	MultiByteToWideChar(CP_ACP, 0, s.c_str(), slength, buf, len);
+	std::wstring r(buf);
+	delete[] buf;
+	return r;
+}
+
 LRESULT CALLBACK LauncherHook(int nCode,WPARAM wParam,LPARAM lParam)
 {
 	if (!gGameOpreator.get())
 	{
 		AFX_MANAGE_STATE(AfxGetStaticModuleState());
-		
-		gGameOpreator = shared_ptr<GameOprator>(new GameOprator());
+
+		TRACE("hook");
+		//gGameOpreator = shared_ptr<GameOprator>(new GameOprator());
 
 		AfxMessageBox(_T("hook secuss"));
-
-		XmlConfig::instance().init();
 	}
 
 	LRESULT Result=CallNextHookEx(gHook,nCode,wParam,lParam);
@@ -86,14 +97,12 @@ LRESULT CALLBACK LauncherHook(int nCode,WPARAM wParam,LPARAM lParam)
 	return Result;
 }
 
-const LPCWSTR targetCaption = _T("完美世界国际版");
-
 _declspec(dllexport) void WINAPI installHook()
 {
 	XmlConfig::instance().init();
-	string test = XmlConfig::instance().getValue("game.caption");
+	wstring targetCaption = s2ws(XmlConfig::instance().getValue("game.caption"));
 
-	HWND targetHandle = FindWindow(NULL,targetCaption);
+	HWND targetHandle = FindWindow(NULL,targetCaption.c_str());
 	if (!targetHandle)
 	{
 		AfxMessageBox(_T("can not find the game window"));
@@ -112,4 +121,13 @@ _declspec(dllexport) void WINAPI unInstallHook()
 	AfxMessageBox(_T("un hook"));
 	::UnhookWindowsHookEx(gHook);
 }
+
+_declspec(dllexport)void WINAPI doOperator(int type)
+{
+// 	if (gGameOpreator.get())
+// 		gGameOpreator->doMsgQueueOperator(type);
+
+}
+
+
 

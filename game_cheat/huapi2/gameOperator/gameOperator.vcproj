@@ -239,6 +239,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\interprocessConstant.h"
+				>
+			</File>
+			<File
 				RelativePath=".\isingleton.h"
 				>
 			</File>
@@ -279,5 +283,9 @@
 		</File>
 	</Files>
 	<Globals>
+		<Global
+			Name="RESOURCE_FILE"
+			Value="gameOperator.rc"
+		/>
 	</Globals>
 </VisualStudioProject>

@@ -3,6 +3,7 @@
 
 #include <QtGui/QMainWindow>
 #include "ui_huapi2.h"
+#include "ProcessSender.h"
 
 class huapi2 : public QMainWindow
 {
@@ -17,9 +18,11 @@ private:
 
 private slots:
 	void	onHookPressed();
+	void	onTestPressed();
 
 private:
 	Ui::huapi2Class ui;
+	shared_ptr<ProcessSender>  processSender_;
 };
 
 #endif // HUAPI2_H
