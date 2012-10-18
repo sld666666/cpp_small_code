@@ -4,6 +4,8 @@
 #include "stdafx.h"
 #include <iostream>
 #include <boost/lambda/lambda.hpp>
+#include <boost/lambda/bind.hpp>
+#include <boost/lambda/if.hpp>
 #include <algorithm>
 #include <vector>
 
@@ -38,11 +40,52 @@ void testFunction_2()
 	for_each(a.begin(), a.end(), std::cout<< boost::lambda::_1 <<  "\n");
 }
 
+int  foo(int x)
+{
+	return 3*x;
+}
+
+void testFunction_3()
+{
+	vector<int> v(10);
+	for_each(v.begin(), v.end(), _1 = 1);
+	for_each(v.begin(), v.end(), cout<< _1 << "\n");
+	//表达式 _1 = 1 创建一个 lambda 仿函数，它将 v 中的每一元素赋值为 1
+
+	vector<int*> v2(10);
+	transform(v.begin(), v.end(), v2.begin(), &_1);
+	for_each(v2.begin(), v2.end(), cout<<*_1<<"\n");
+	//表达式 &_1 创建一个取得 v 中每一个元素的地址的函数对象。这些地址赋值给 vp 中的对应元素。
+	
+	for_each(v.begin(), v.end(), _1 = bind(foo, _1));
+	for_each(v.begin(), v.end(), cout<< _1 << "\n");
+
+	sort(v.begin(), v.end(), _1 > _2);
+
+}
+
+void testFunction_4()
+{
+	int myints[] = {32,71,12,45,26,80,53,33};
+	vector<int> myvector (myints, myints+8); 
+	sort(myvector.begin(), myvector.end());
+	sort(myvector.begin(), myvector.end(), _1 > _2);
+	for_each(myvector.begin(), myvector.end(), cout<< _1 << "\n");
+
+}
+
+void testFunction_5()
+{
+	int myints[] = {32,71,12,45,26,80,53,33};
+	vector<int> myvector (myints, myints+8); 
+	for_each(myvector.begin(), myvector.end()
+		, if_then(_1 > 45, cout << _1 <<"\n"));
+}
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	testFunction_0();
-	testFunction_2();
+	//testFunction_3();
+	testFunction_5();
 	return 0;
 }
 
