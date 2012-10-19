@@ -2,7 +2,7 @@
 
 
 ProcessSender::ProcessSender(void)
-: msgQueue_(interprocess::create_only
+: msgQueue_(interprocess::open_or_create
 			, INTERPRCESS_MESSAGE_QUEUE_NAME, 1, sizeof(int))
 {
 }

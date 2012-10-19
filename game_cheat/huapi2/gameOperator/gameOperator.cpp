@@ -87,7 +87,7 @@ LRESULT CALLBACK LauncherHook(int nCode,WPARAM wParam,LPARAM lParam)
 		AFX_MANAGE_STATE(AfxGetStaticModuleState());
 
 		TRACE("hook");
-		//gGameOpreator = shared_ptr<GameOprator>(new GameOprator());
+		gGameOpreator = shared_ptr<GameOprator>(new GameOprator());
 
 		AfxMessageBox(_T("hook secuss"));
 	}

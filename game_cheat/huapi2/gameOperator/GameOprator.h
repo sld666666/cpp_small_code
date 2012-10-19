@@ -1,5 +1,5 @@
 #pragma once
-#include "interprocessConstant.h"
+#include "MsgQueueListener.h"
 
 class GameOprator : public CWnd
 {
@@ -13,8 +13,8 @@ public:
 	DECLARE_MESSAGE_MAP()
 	afx_msg void OnTimer(UINT_PTR nIDEvent);
 
+public:
+	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
 private:
-	void	doMsgQueueOperator();
-	void	doOperator(MSG_QUEUE_TYPE type);
-
+	MsgQueueListener	msgQueueListener_;
 };

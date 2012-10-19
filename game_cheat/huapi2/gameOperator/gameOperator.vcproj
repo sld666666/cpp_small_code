@@ -67,6 +67,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="2"
+				AdditionalLibraryDirectories="$(OutDir)"
 				ModuleDefinitionFile=".\gameOperator.def"
 				GenerateDebugInformation="true"
 				SubSystem="2"
@@ -197,6 +198,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\MsgQueueListener.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\stdafx.cpp"
 				>
 				<FileConfiguration
@@ -244,6 +249,10 @@
 			</File>
 			<File
 				RelativePath=".\isingleton.h"
+				>
+			</File>
+			<File
+				RelativePath=".\MsgQueueListener.h"
 				>
 			</File>
 			<File
