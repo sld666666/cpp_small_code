@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thread", "thread\thread.vcp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "log", "log\log.vcproj", "{8219D04A-7316-425B-80D3-A9CF57F15E3F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "serialization", "serialization\serialization.vcproj", "{3023A9E4-0E98-40D1-993C-5E6102ACD4F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -67,6 +69,10 @@ Global
 		{8219D04A-7316-425B-80D3-A9CF57F15E3F}.Debug|Win32.Build.0 = Debug|Win32
 		{8219D04A-7316-425B-80D3-A9CF57F15E3F}.Release|Win32.ActiveCfg = Release|Win32
 		{8219D04A-7316-425B-80D3-A9CF57F15E3F}.Release|Win32.Build.0 = Release|Win32
+		{3023A9E4-0E98-40D1-993C-5E6102ACD4F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3023A9E4-0E98-40D1-993C-5E6102ACD4F2}.Debug|Win32.Build.0 = Debug|Win32
+		{3023A9E4-0E98-40D1-993C-5E6102ACD4F2}.Release|Win32.ActiveCfg = Release|Win32
+		{3023A9E4-0E98-40D1-993C-5E6102ACD4F2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
