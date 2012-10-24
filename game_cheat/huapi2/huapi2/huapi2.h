@@ -15,6 +15,8 @@ public:
 
 private:
 	void	initConnect();
+	void	start();
+	void	onLisnten();
 
 private slots:
 	void	onHookPressed();

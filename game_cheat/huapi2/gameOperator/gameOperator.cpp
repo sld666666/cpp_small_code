@@ -99,6 +99,8 @@ LRESULT CALLBACK LauncherHook(int nCode,WPARAM wParam,LPARAM lParam)
 
 _declspec(dllexport) void WINAPI installHook()
 {
+	gGameOpreator = shared_ptr<GameOprator>(new GameOprator());
+	return;
 	XmlConfig::instance().init();
 	wstring targetCaption = s2ws(XmlConfig::instance().getValue("game.caption"));
 

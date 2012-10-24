@@ -18,8 +18,8 @@ MsgQueueListener::~MsgQueueListener(void)
 
 void MsgQueueListener::start()
 {
-	thread lisntenThread(bind(&MsgQueueListener::onLisnten, this));
-	lisntenThread.join();
+	boost::thread lisntenThread(bind(&MsgQueueListener::onLisnten, this));
+
 }
 
 void MsgQueueListener::onLisnten()
@@ -32,9 +32,7 @@ void MsgQueueListener::onLisnten()
 			int recvd_number;
 			msgQueue_.receive(&recvd_number, sizeof(recvd_number), recvd_size, prioity);
 			doOperator(static_cast<MSG_QUEUE_TYPE>(recvd_number));
-			CString test;
-			test.Format(_T("%d"), recvd_number);
-			AfxMessageBox(test);
+			Log::instance().debugMsg("MsgQueueListener receive", recvd_number);
 		}
 		catch(interprocess::interprocess_exception &ex)
 		{

@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'huapi2.h'
 **
-** Created: Thu Oct 18 16:44:53 2012
+** Created: Mon Oct 22 11:07:19 2012
 **      by: The Qt Meta Object Compiler version 62 (Qt 4.7.4)
 **
 ** WARNING! All changes made in this file will be lost!
