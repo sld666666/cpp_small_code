@@ -23,6 +23,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "log", "log\log.vcproj", "{8
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "serialization", "serialization\serialization.vcproj", "{3023A9E4-0E98-40D1-993C-5E6102ACD4F2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bind", "bind\bind.vcproj", "{211F396A-6BD2-462F-AA07-850EE9DAEF60}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "functors", "functors\functors.vcproj", "{0D67CA92-46A2-4D72-A60B-CABCBE6E30E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -73,6 +77,14 @@ Global
 		{3023A9E4-0E98-40D1-993C-5E6102ACD4F2}.Debug|Win32.Build.0 = Debug|Win32
 		{3023A9E4-0E98-40D1-993C-5E6102ACD4F2}.Release|Win32.ActiveCfg = Release|Win32
 		{3023A9E4-0E98-40D1-993C-5E6102ACD4F2}.Release|Win32.Build.0 = Release|Win32
+		{211F396A-6BD2-462F-AA07-850EE9DAEF60}.Debug|Win32.ActiveCfg = Debug|Win32
+		{211F396A-6BD2-462F-AA07-850EE9DAEF60}.Debug|Win32.Build.0 = Debug|Win32
+		{211F396A-6BD2-462F-AA07-850EE9DAEF60}.Release|Win32.ActiveCfg = Release|Win32
+		{211F396A-6BD2-462F-AA07-850EE9DAEF60}.Release|Win32.Build.0 = Release|Win32
+		{0D67CA92-46A2-4D72-A60B-CABCBE6E30E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D67CA92-46A2-4D72-A60B-CABCBE6E30E7}.Debug|Win32.Build.0 = Debug|Win32
+		{0D67CA92-46A2-4D72-A60B-CABCBE6E30E7}.Release|Win32.ActiveCfg = Release|Win32
+		{0D67CA92-46A2-4D72-A60B-CABCBE6E30E7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
