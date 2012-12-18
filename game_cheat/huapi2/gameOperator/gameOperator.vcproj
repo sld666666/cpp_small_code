@@ -69,7 +69,7 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="log4cplusUD.lib"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="$(OutDir)"
+				AdditionalLibraryDirectories="&quot;$(OutDir)&quot;"
 				ModuleDefinitionFile=".\gameOperator.def"
 				GenerateDebugInformation="true"
 				SubSystem="2"
