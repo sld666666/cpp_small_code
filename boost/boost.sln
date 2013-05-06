@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bind", "bind\bind.vcproj", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "functors", "functors\functors.vcproj", "{0D67CA92-46A2-4D72-A60B-CABCBE6E30E7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std_sort", "std_sort\std_sort.vcproj", "{3F01446A-24E7-40F3-89D9-43F206E9762B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -85,6 +87,10 @@ Global
 		{0D67CA92-46A2-4D72-A60B-CABCBE6E30E7}.Debug|Win32.Build.0 = Debug|Win32
 		{0D67CA92-46A2-4D72-A60B-CABCBE6E30E7}.Release|Win32.ActiveCfg = Release|Win32
 		{0D67CA92-46A2-4D72-A60B-CABCBE6E30E7}.Release|Win32.Build.0 = Release|Win32
+		{3F01446A-24E7-40F3-89D9-43F206E9762B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F01446A-24E7-40F3-89D9-43F206E9762B}.Debug|Win32.Build.0 = Debug|Win32
+		{3F01446A-24E7-40F3-89D9-43F206E9762B}.Release|Win32.ActiveCfg = Release|Win32
+		{3F01446A-24E7-40F3-89D9-43F206E9762B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

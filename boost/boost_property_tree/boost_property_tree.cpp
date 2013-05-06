@@ -8,21 +8,28 @@
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/xml_parser.hpp>
 #include <boost/foreach.hpp>  
+#include <boost/filesystem/operations.hpp>
 
 using namespace std;
 using namespace boost::property_tree;
+using namespace boost;
 
 #define foreach BOOST_FOREACH
 
 void load(const string& fileName);
 void save(const string& fileName);
 
+
 int _tmain(int argc, _TCHAR* argv[])
 {
+	int* test_0 = Test().getTest();
+	int* test_1 = Test().getTest();
 	testClass test;
 	int i = test.mfun(1);
 
-	const string PATH = "D:\\\\tmp\\test.xml";
+	string PATH = filesystem::initial_path<filesystem::path>().string() 
+		+ "/config.xml";
+	//PATH = "d:\\\\tmp\\config.xml";
 	load(PATH);
 	save(PATH);
 	load(PATH);
