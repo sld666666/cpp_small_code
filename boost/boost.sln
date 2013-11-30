@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "functors", "functors\functo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std_sort", "std_sort\std_sort.vcproj", "{3F01446A-24E7-40F3-89D9-43F206E9762B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "asio_server", "asio_server\asio_server.vcproj", "{75BF582B-548E-4EEC-A882-83AC2A10C83A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -91,6 +93,10 @@ Global
 		{3F01446A-24E7-40F3-89D9-43F206E9762B}.Debug|Win32.Build.0 = Debug|Win32
 		{3F01446A-24E7-40F3-89D9-43F206E9762B}.Release|Win32.ActiveCfg = Release|Win32
 		{3F01446A-24E7-40F3-89D9-43F206E9762B}.Release|Win32.Build.0 = Release|Win32
+		{75BF582B-548E-4EEC-A882-83AC2A10C83A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{75BF582B-548E-4EEC-A882-83AC2A10C83A}.Debug|Win32.Build.0 = Debug|Win32
+		{75BF582B-548E-4EEC-A882-83AC2A10C83A}.Release|Win32.ActiveCfg = Release|Win32
+		{75BF582B-548E-4EEC-A882-83AC2A10C83A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

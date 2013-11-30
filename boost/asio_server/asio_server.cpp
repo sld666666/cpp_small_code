@@ -3,7 +3,15 @@
 
 #include "stdafx.h"
 #include <iostream>
+#include <string>
 #include <boost/asio.hpp>
+#include <boost/bind.hpp>
+#include <boost/smart_ptr.hpp>
+
+using namespace boost::asio;
+using boost::system::error_code;
+using ip::tcp;
+using namespace boost;
 
 
 void run(){
@@ -28,9 +36,41 @@ void run(){
 	}
 }
 
+class AsyncService{
+public:
+	AsyncService(io_service& iosev)
+		: iosev_(iosev)
+		, acceptor_(iosev, tcp::endpoint(tcp::v4(), 1000))
+	{
+		
+	}
+
+	void start()
+	{
+		shared_ptr<tcp::socket> socket(new tcp::socket(iosev_));
+		acceptor_.async_accept(*socket
+			, bind(&AsyncService::acceptHandler, this, socket));
+	}
+
+	void acceptHandler(shared_ptr<tcp::socket> psocket)
+	{
+		// 继续等待连接
+		start();
+		// 显示远程IP
+		std::cout << psocket->remote_endpoint().address() << std::endl;
+	}
+
+private:
+	io_service& iosev_;
+	ip::tcp::acceptor acceptor_;
+};
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	run();
+	io_service iosev;
+	AsyncService service(iosev);
+	service.start();
+	iosev.run();
 	return 0;
 }
 

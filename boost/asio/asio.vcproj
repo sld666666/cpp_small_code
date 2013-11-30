@@ -213,7 +213,19 @@
 				>
 			</File>
 			<File
+				RelativePath=".\async_client.h"
+				>
+			</File>
+			<File
+				RelativePath=".\htt_get.h"
+				>
+			</File>
+			<File
 				RelativePath=".\stdafx.h"
+				>
+			</File>
+			<File
+				RelativePath=".\syn_client.h"
 				>
 			</File>
 			<File
