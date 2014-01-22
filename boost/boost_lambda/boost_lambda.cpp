@@ -37,7 +37,7 @@ void testFunction_2()
 	a.push_back(2);
 	a.push_back(3);
 
-	for_each(a.begin(), a.end(), std::cout<< boost::lambda::_1 <<  "\n");
+	for_each(a.begin(), a.end(), std::cout<<constant(' ')<< boost::lambda::_1 <<  "\n");
 }
 
 int  foo(int x)
@@ -70,7 +70,10 @@ void testFunction_4()
 	vector<int> myvector (myints, myints+8); 
 	sort(myvector.begin(), myvector.end());
 	sort(myvector.begin(), myvector.end(), _1 > _2);
-	for_each(myvector.begin(), myvector.end(), cout<< _1 << "\n");
+	//for_each(myvector.begin(), myvector.end(), cout<< _1 << "\n");
+	
+	int index(0);
+	for_each(myvector.begin(), myvector.end(), cout<<++var(index)<<"-"<< _1 << "\n");
 
 }
 
@@ -82,10 +85,16 @@ void testFunction_5()
 		, if_then(_1 > 45, cout << _1 <<"\n"));
 }
 
+void testFunction_6()
+{
+	(cout<<_1<<" "<<_2<<" "<<_3)("welcome", "to", "cn");
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	//testFunction_3();
-	testFunction_5();
+	//testFunction_0();
+	testFunction_4();
+	//testFunction_5();
 	return 0;
 }
 
