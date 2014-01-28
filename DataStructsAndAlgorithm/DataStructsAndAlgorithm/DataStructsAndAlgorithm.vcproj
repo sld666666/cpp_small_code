@@ -230,6 +230,14 @@
 				RelativePath=".\sort\InsertSort.h"
 				>
 			</File>
+			<File
+				RelativePath=".\sort\MergerSort.h"
+				>
+			</File>
+			<File
+				RelativePath=".\sort\QuickSort.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="datastruct"

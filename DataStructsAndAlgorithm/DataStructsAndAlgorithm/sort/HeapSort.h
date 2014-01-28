@@ -25,5 +25,6 @@ static void testFun_HeapSort()
 	vector<int> heap(nodes, nodes+sizeof(nodes)/sizeof(int));
 	HeapSort().sortInc(heap);
 	std::for_each(heap.begin(), heap.end(), cout<<lambda::_1 <<lambda::constant(","));
+	cout <<endl;
 
 }
