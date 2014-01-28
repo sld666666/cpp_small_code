@@ -8,6 +8,7 @@
 #include "sort/QuickSort.h"
 #include "sort/InsertSort.h"
 #include "sort/MergerSort.h"
+#include "sort/CountSort.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -17,6 +18,7 @@ int _tmain(int argc, _TCHAR* argv[])
 // 	testFun_HeapSort();
 // 	testFun_QuickSort();
 	testFun_MergerSort();
+	testFun_CountSort();
 	return 0;
 }
 

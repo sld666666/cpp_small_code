@@ -223,6 +223,10 @@
 			Name="sort"
 			>
 			<File
+				RelativePath=".\sort\CountSort.h"
+				>
+			</File>
+			<File
 				RelativePath=".\sort\HeapSort.h"
 				>
 			</File>
