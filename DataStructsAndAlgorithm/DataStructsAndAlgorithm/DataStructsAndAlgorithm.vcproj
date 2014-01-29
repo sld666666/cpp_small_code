@@ -223,6 +223,10 @@
 			Name="sort"
 			>
 			<File
+				RelativePath=".\sort\BucketSort.h"
+				>
+			</File>
+			<File
 				RelativePath=".\sort\CountSort.h"
 				>
 			</File>
@@ -240,6 +244,10 @@
 			</File>
 			<File
 				RelativePath=".\sort\QuickSort.h"
+				>
+			</File>
+			<File
+				RelativePath=".\sort\RadixSort.h"
 				>
 			</File>
 		</Filter>
