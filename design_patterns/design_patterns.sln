@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "visitor", "visitor\visitor.vcproj", "{BB5E86CB-52D0-4772-87E7-05EBD45B4845}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "State", "State\State.vcproj", "{7C2C451C-437D-4D0A-BDD6-BE82F876AFE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -61,6 +63,10 @@ Global
 		{BB5E86CB-52D0-4772-87E7-05EBD45B4845}.Debug|Win32.Build.0 = Debug|Win32
 		{BB5E86CB-52D0-4772-87E7-05EBD45B4845}.Release|Win32.ActiveCfg = Release|Win32
 		{BB5E86CB-52D0-4772-87E7-05EBD45B4845}.Release|Win32.Build.0 = Release|Win32
+		{7C2C451C-437D-4D0A-BDD6-BE82F876AFE0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C2C451C-437D-4D0A-BDD6-BE82F876AFE0}.Debug|Win32.Build.0 = Debug|Win32
+		{7C2C451C-437D-4D0A-BDD6-BE82F876AFE0}.Release|Win32.ActiveCfg = Release|Win32
+		{7C2C451C-437D-4D0A-BDD6-BE82F876AFE0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
