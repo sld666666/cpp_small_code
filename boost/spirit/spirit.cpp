@@ -7,11 +7,13 @@
 // #include "Arithmetic.h"
 //#include "WarmingUp.h"
 #include "actions.h"
+#include "Sum.h"
+#include "NumList.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	parserAction();
+	testNumList();
 	return 0;
 }
 
