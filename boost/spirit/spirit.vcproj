@@ -209,6 +209,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\ComplexNumber.h"
+				>
+			</File>
+			<File
 				RelativePath=".\FloatParser.h"
 				>
 			</File>
@@ -228,6 +232,14 @@
 				RelativePath=".\WarmingUp.h"
 				>
 			</File>
+			<Filter
+				Name="lexer"
+				>
+				<File
+					RelativePath=".\word_count_functor.h"
+					>
+				</File>
+			</Filter>
 		</Filter>
 		<Filter
 			Name="资源文件"

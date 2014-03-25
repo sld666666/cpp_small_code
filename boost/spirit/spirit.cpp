@@ -7,11 +7,12 @@
 // #include "Arithmetic.h"
 //#include "WarmingUp.h"
 #include "actions.h"
+#include "word_count_functor.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	parserAction();
+	testFun_word_count();
 	return 0;
 }
 
