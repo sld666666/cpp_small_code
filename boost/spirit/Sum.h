@@ -22,8 +22,21 @@ namespace client
 	template<typename Iter>
 	bool adder(Iter first, Iter last, double& n)
 	{
-		bool rtn = qi::phrase_parse(first, last
-			, (double_[ref(n)=_1]));
+		bool rtn = qi::phrase_parse(
+			first
+			, last
+			, (double_[ref(n) = _1] >> *(',' >> double_[ref(n) += _1]))
+			, space);
+
+		return rtn;
 	}
 
+}
+
+void testSum()
+{
+	std::string input="123.34,1234";
+	double n;
+	bool rtn = client::adder(input.begin(), input.end(), n);
+	std::cout << n << std::endl;
 }

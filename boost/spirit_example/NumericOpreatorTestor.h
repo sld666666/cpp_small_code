@@ -8,7 +8,7 @@ BOOST_AUTO_TEST_SUITE (numericopreatortestor)
 
 BOOST_AUTO_TEST_CASE(test0)
 {
-	NumericOpreator opr("123+223");
+	NumericOpreator opr("123*223");
 	opr.testInGramar();
 }
 

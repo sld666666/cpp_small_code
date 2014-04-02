@@ -221,7 +221,15 @@
 				>
 			</File>
 			<File
+				RelativePath=".\NumList.h"
+				>
+			</File>
+			<File
 				RelativePath=".\stdafx.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Sum.h"
 				>
 			</File>
 			<File
