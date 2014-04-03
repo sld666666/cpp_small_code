@@ -232,6 +232,18 @@
 				RelativePath=".\Traits.h"
 				>
 			</File>
+			<Filter
+				Name="moderncpp"
+				>
+				<File
+					RelativePath=".\ImplementPolicyWithTTParameter.h"
+					>
+				</File>
+				<File
+					RelativePath=".\PoliciesAndPolicyClasses.h"
+					>
+				</File>
+			</Filter>
 		</Filter>
 		<Filter
 			Name="资源文件"
