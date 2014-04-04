@@ -236,7 +236,19 @@
 				Name="moderncpp"
 				>
 				<File
+					RelativePath=".\ComplireTimeAssertions.h"
+					>
+				</File>
+				<File
 					RelativePath=".\ImplementPolicyWithTTParameter.h"
+					>
+				</File>
+				<File
+					RelativePath=".\Int2Type.h"
+					>
+				</File>
+				<File
+					RelativePath=".\LocalClass.h"
 					>
 				</File>
 				<File
