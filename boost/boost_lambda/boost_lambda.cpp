@@ -90,11 +90,28 @@ void testFunction_6()
 	(cout<<_1<<" "<<_2<<" "<<_3)("welcome", "to", "cn");
 }
 
+struct Extuctor{
+	Extuctor(int _d):d(_d){}
+	int d;
+	void fun(){cout << d << endl;}
+};
+
+void testFunction_7()
+{
+	vector<Extuctor> extuctors;
+	extuctors.push_back(Extuctor(1));
+	extuctors.push_back(Extuctor(2));
+	extuctors.push_back(Extuctor(3));
+	for_each(extuctors.begin(), extuctors.end()
+		,bind(&Extuctor::fun, _1));
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//testFunction_0();
-	testFunction_4();
+	//testFunction_4();
 	//testFunction_5();
+	testFunction_7();
 	return 0;
 }
 
