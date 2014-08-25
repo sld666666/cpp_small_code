@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spirit", "spirit\spirit.vcp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spirit_example", "spirit_example\spirit_example.vcproj", "{0DF2BA92-042B-4508-810C-703C48B81DEB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "any", "any\any.vcproj", "{A07657BF-1821-4F55-8580-92272CA99B10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -109,6 +111,10 @@ Global
 		{0DF2BA92-042B-4508-810C-703C48B81DEB}.Debug|Win32.Build.0 = Debug|Win32
 		{0DF2BA92-042B-4508-810C-703C48B81DEB}.Release|Win32.ActiveCfg = Release|Win32
 		{0DF2BA92-042B-4508-810C-703C48B81DEB}.Release|Win32.Build.0 = Release|Win32
+		{A07657BF-1821-4F55-8580-92272CA99B10}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A07657BF-1821-4F55-8580-92272CA99B10}.Debug|Win32.Build.0 = Debug|Win32
+		{A07657BF-1821-4F55-8580-92272CA99B10}.Release|Win32.ActiveCfg = Release|Win32
+		{A07657BF-1821-4F55-8580-92272CA99B10}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
